@@ -320,7 +320,7 @@ gap: 60px;
     }
     .goat-description{
         width:100%;
-height: 600px;
+        height: 600px;
     }
     .goat-info{
         padding-left:0px;
@@ -332,9 +332,6 @@ height: 600px;
     #si{
         margin-left: 35px;
     }
-    .goat-btn{
-         padding:20px 30px;
-    }
     .goat-pic{
         width:80%;
         height:400px;
@@ -342,10 +339,6 @@ height: 600px;
     .goat-btn{
 
         padding: 15px 40px;
-    }
-    .online-game-pic{
-        grid-template-columns: repeat(1,1fr);
-        padding:30px 70px;
     }
     .play-instant{
         flex-direction: column;
@@ -375,8 +368,6 @@ height: 600px;
         grid-template-columns: repeat(3,1fr);
     }
     .privacy{
-        color:#FFF;
-        display: grid;
         grid-template-columns: repeat(2,1fr);
         padding:15px;
 
@@ -410,5 +401,47 @@ height: 600px;
 }
 }
 @media screen and (min-width:576px) and (max-width:992px) {
-    
+    .goat{
+        flex-direction: column;
+    }
+        .goat-description{
+            width:100%;
+            height: 600px;
+        }
+        .online-game-pic{
+            flex-direction:column;
+            gap:25px;
+            width:80%;
+            margin-left:90px;
+        }
+        .first-ins{
+            width:100%;
+            height:500px;
+        }
+        .second-ins{
+            left:100px;
+            margin-right:20px;
+        }
+        .instant-pic{
+            margin-left: 5px;
+        }
+        .action{
+            grid-template-columns: repeat(3,1fr);
+            padding-left: 20px;
+            
+        }
+        .logo-img2{
+            width: 15%;
+            height: 50px;
+        }
+        .story{
+            grid-template-columns: repeat(6,1fr);
+            padding:0px;
+            padding-top: 20px;
+            padding-left: 20px;
+            padding-bottom: 25px;
+        }
+        .privacy{
+            grid-template-columns: repeat(4,1fr);
+            padding:15px;
 }

@@ -103,22 +103,84 @@ background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
 border-style: none;
 margin-left: 300px;
 }
+#si:hover{
+    color:antiquewhite;
+    cursor: pointer;
+}
 #go{
     border-radius: 48px;
 background: #4EC5F7;
 border-style:none;
 margin-left: 40px;
 }
+#go:hover{
+    color: #F948B2;
+    cursor:pointer;
+}
 .goat-pic{
     width:100%;
     height:550px;
 }
 /* online game section */
-.online-game{
+.online-game-pic{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    gap:25px;
+    width:80%;
+    margin-left:150px;
+}
+.first-pic-gone{
+    background-image:url(../img/Rectangle\ 4.png);
+    width: 340px;
+    height:400px;
+    border-radius: 15px;
+    position:relative;
+}
+.first-pic-gtwo{
+    background-image:url(../img/Rectangle\ 5.png);
+    width: 340px;
+    height:400px;
+    border-radius: 15px;
+    position:relative;
+}
+.first-pic-gthree{
+    background-image:url(../img/Rectangle\ 7.png);
+    width: 340px;
+    height:400px;
+    border-radius: 15px;
+    position:relative;
+}
+.first-pic-gfour{
+    background-image:url(../img/Rectangle\ 6.png);
+    width: 340px;
+    height:400px;
+    border-radius: 15px;
+    position:relative;
+}
+.online-hover{
+    height:100%;
+    width:100%;
+    background-color:rgba(0,0,0,0.748);
+    position:absolute;
+    border-radius: 10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:#795568;
+    visibility: hidden;
+}
+.watch:hover .online-hover{
+    visibility:visible;
+
+}
+
+ .online-game{
        text-align: center;
        padding:30px;
        padding-bottom: 50px;
-}
+} 
 .Funny{
     color: #0B0223;
 font-family: Work Sans;
@@ -134,21 +196,8 @@ font-weight: 700;
     font-weight: 700;
     
 }
-/* #OG:hover{
-    background:;
-    
-} */
-.online-game-pic{
-    display:grid;
-    grid-template-columns: repeat(4,1fr);
-    padding:30px 40px 30px 80px;
-    /* padding-left: 100px; */
-}
-.figure-pic{
-    gap:30px;
-    width: 300px;
-     height: 320px;
-}
+
+
 /* play instantly section */
 .play-instant{
     display:flex;
@@ -156,7 +205,7 @@ font-weight: 700;
     justify-content: space-around;
     align-items: center;
     gap:70px;
-    margin-top: 40px;
+    margin-top: 100px;
 }
 .first-ins{
     width:80%;
@@ -255,7 +304,7 @@ gap: 60px;
     }
     .header-info ul , span > i{
         flex-direction: column;
-        padding-left: 50px;
+        padding-left: 30px;
     } 
     .heading-box{
         grid-template-columns: repeat(1,1fr);
@@ -298,9 +347,6 @@ height: 600px;
         grid-template-columns: repeat(1,1fr);
         padding:30px 70px;
     }
-    figcaption{
-        margin-bottom: 30px;
-    }
     .play-instant{
         flex-direction: column;
         gap:10px;
@@ -320,7 +366,48 @@ height: 600px;
     .instan-des{
         padding-bottom: 80px;
     }
-    
+    .action{
+        grid-template-columns: repeat(3,1fr);
+        padding-left: 0px;
+        
+    }
+    .story{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .privacy{
+        color:#FFF;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding:15px;
+
+    }
+    .logo-img2{
+        width: 15%;
+        height: 50px;
+    }
+    .privacy p{
+        padding-top: 25px;
+        padding-right: 15px;
+    }
+    .online-game-pic{
+        flex-direction: column;
+        gap:25px;
+        width:50%;
+        margin-left:0px;
+    }
+    .type p{
+        font-size: small;
+    }
+
+    .story{
+        grid-template-columns: repeat(3,1fr);
+        padding:0px;
+        padding-left: 20px;
+        padding-bottom: 25px;
+}
+.story p{
+    padding-bottom:10px;
+}
 }
 @media screen and (min-width:576px) and (max-width:992px) {
     

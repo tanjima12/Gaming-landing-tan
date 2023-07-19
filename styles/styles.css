@@ -19,6 +19,8 @@
     display:flex;
     gap:20px;
     font-size: 30px;
+    align-items: center;
+    justify-content: center;
 }
 .logo-img{
     width:100%;
@@ -181,8 +183,9 @@ height: 365.083px;
     grid-template-columns: repeat(5,1fr);
     gap:20px;
     padding-left: 100px;
-    padding-top: 20px;
+    padding-top: 60px;
     background: rgb(250, 242, 230);
+    padding-bottom:60px;
 }
 .type{
     display:flex;
@@ -195,6 +198,56 @@ height: 365.083px;
     border-radius: 50px;
     background: #FFF;
     color:red;
+}
+/* footer section */
+.last-part{
+    background-color: #0B0223;
+}
+.logo-img2{
+    width: 5%;
+    height: 50px;
+}
+.logol{
+    display:flex;
+    gap:20px;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+}
+.amer{
+    color:white;
+}
+.story{
+    color:white;
+    display:grid;
+    grid-template-columns: repeat(6,1fr);
+    padding:30px;
+    padding: 30px 300px;
+    
+
+}
+.clickable{
+    display:flex;
+    justify-content: center;
+    gap:30px;
+}
+.clickable a:hover{
+    background-color: rgb(223, 129, 7);
+}
+.privacy{
+    color:#FFF;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding:30px 350px 0px 350px;
+}
+.copy{
+    color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-size: 16px;
+font-weight: 500;
+padding: 30px;
+gap: 60px;
 }
 @media screen and (max-width:576px) {
     .heading{

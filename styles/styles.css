@@ -122,13 +122,34 @@ margin-left: 40px;
     height:550px;
 }
 /* online game section */
+.online-game{
+    text-align: center;
+    padding:30px;
+    padding-bottom: 50px;
+} 
+.Funny{
+ color: #0B0223;
+font-family: Work Sans;
+font-size: 48px;
+font-weight: 700;
+}
+.section{
+ background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+ background-clip: text;
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ font-size: 48px;
+ font-weight: 700;
+ 
+}
 .online-game-pic{
     display:flex;
     justify-content:space-around;
     align-items: center;
     gap:25px;
     width:80%;
-    margin-left:150px;
+    margin:0 auto;
+    /* margin-left:150px; */
 }
 .first-pic-gone{
     background-image:url(../img/Rectangle\ 4.png);
@@ -171,30 +192,9 @@ margin-left: 40px;
     color:#795568;
     visibility: hidden;
 }
-.watch:hover .online-hover{
+.watch:hover .online-hover {
     visibility:visible;
 
-}
-
- .online-game{
-       text-align: center;
-       padding:30px;
-       padding-bottom: 50px;
-} 
-.Funny{
-    color: #0B0223;
-font-family: Work Sans;
-font-size: 48px;
-font-weight: 700;
-}
-.section{
-    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 48px;
-    font-weight: 700;
-    
 }
 
 
@@ -353,6 +353,8 @@ gap: 60px;
         height:600px;
     }
     .second-ins{
+        width: 280.5px;
+        height:350px;
         left:100px;
         margin-right:20px;
     }
@@ -384,9 +386,9 @@ gap: 60px;
     .online-game-pic{
         flex-direction: column;
         gap:25px;
-        width:50%;
-        margin:0px;
-        padding-left:5px;
+        width:90%;;
+        margin:0 auto;
+        /* padding-left:5px; */
     }
     .type p{
         font-size: 10px;
